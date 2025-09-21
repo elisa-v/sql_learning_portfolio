@@ -8,35 +8,29 @@ The goal is to master SQL fundamentals, practice on different platforms, and pre
 ## 📂 Repository Structure
 
 sql_learning_portfolio/
-│
-├── mode_sql_basic/ # Basic SQL queries (Mode Analytics tutorial)
-│ ├── 01_sql_select/
-│ │ ├── 01_sql_select.sql
-│ │ ├── 02_sql_select.sql
-│ │ ├── 03_sql_select.sql
-│ │ └── 04_sql_select.sql
-│ ├── 02_sql_limit/
-│ ├── 03_sql_where/
-│ ├── 04_sql_comparison_operators/
-│ ├── 05_sql_logical_operators/
-│ ├── 06_sql_like/
-│ ├── 07_sql_in/
-│ ├── 08_sql_between/
-│ ├── 09_sql_is_null/
-│ ├── 10_sql_and/
-│ ├── 11_sql_or/
-│ ├── 12_sql_not/
-│ └── 13_sql_order_by/
-│
-├── mode_sql_intermediate/ # Joins, subqueries (to be added)
-│
-├── mode_sql_advanced/ # Window functions, CTEs, analytics
-│
-├── sqlbolt/ # Solutions to SQLBolt interactive lessons
-│
-├── kaggle_sql/ # SQL notebooks applied to real datasets
-│
-└── README.md
+├─ mode_sql_basic/                 # Basic SQL queries (Mode Analytics tutorial)
+│  ├─ 01_sql_select/
+│  ├─ 01_sql_select.sql
+│  ├─ 02_sql_select.sql
+│  ├─ 03_sql_select.sql
+│  ├─ 04_sql_select.sql
+│  ├─ 02_sql_limit/
+│  ├─ 03_sql_where/
+│  ├─ 04_sql_comparison_operators/
+│  ├─ 05_sql_logical_operators/
+│  ├─ 06_sql_like/
+│  ├─ 07_sql_in/
+│  ├─ 08_sql_between/
+│  ├─ 09_sql_is_null/
+│  ├─ 10_sql_and/
+│  ├─ 11_sql_or/
+│  ├─ 12_sql_not/
+│  └─ 13_sql_order_by/
+├─ mode_sql_intermediate/          # Joins, subqueries (to be added)
+├─ mode_sql_advanced/              # Window functions, CTEs, analytics
+├─ sqlbolt/                        # Solutions to SQLBolt lessons
+├─ kaggle_sql/                     # SQL notebooks on real datasets
+└─ README.md
 
 
 ---
