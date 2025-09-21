@@ -6,7 +6,7 @@ The goal is to master SQL fundamentals, practice on different platforms, and pre
 ---
 
 ## 📂 Repository Structure
-
+```bash
 sql_learning_portfolio/
 ├─ mode_sql_basic/                 # Basic SQL queries (Mode Analytics tutorial)
 │  ├─ 01_sql_select/
@@ -31,7 +31,7 @@ sql_learning_portfolio/
 ├─ sqlbolt/                        # Solutions to SQLBolt lessons
 ├─ kaggle_sql/                     # SQL notebooks on real datasets
 └─ README.md
-
+```
 
 ---
 
