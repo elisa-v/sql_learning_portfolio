@@ -26,8 +26,8 @@ sql_learning_portfolio/
 │  ├─ 11_sql_or/
 │  ├─ 12_sql_not/
 │  └─ 13_sql_order_by/
-├─ mode_sql_intermediate/          # Joins, subqueries (to be added)
-├─ mode_sql_advanced/              # Window functions, CTEs, analytics
+├─ mode_sql_intermediate/          # Aggregate functions, group by, joins
+├─ mode_sql_advanced/              # Subqueries, data type, window functions
 ├─ sqlbolt/                        # Solutions to SQLBolt lessons
 ├─ kaggle_sql/                     # SQL notebooks on real datasets
 └─ README.md
@@ -39,10 +39,8 @@ sql_learning_portfolio/
 
 - **Mode Analytics SQL Tutorial**
   - ✅ Basic SQL (SELECT, WHERE, ORDER BY, LIMIT, operators)
-  - 🔄 Intermediate SQL (Joins, Subqueries) → *in progress*
-  - ⏳ Advanced SQL (Window functions, CTEs, Analytics) → *in progress*
-
-- **SQLBolt** → Interactive reinforcement of SQL basics → *in progress*
+  - 🔄 Intermediate SQL (Joins) → *in progress*
+  - ⏳ Advanced SQL (Window functions, Subqueries) → *in progress*
 - **Kaggle SQL Micro-Course** → Applied SQL on real-world datasets → *in progress* 
 - **LeetCode SQL Problems** → Interview-style query practice (to be added).  
 
@@ -72,11 +70,15 @@ Example:
 The following simple query can be run in Mode directly against the `tutorial.billboard_top_100_year_end` dataset:
 
 ```sql
-SELECT *
-FROM tutorial.billboard_top_100_year_end
-WHERE year_rank BETWEEN 10 AND 20
-  AND year IN (1993, 2003, 2013)
-ORDER BY year, year_rank;
+SELECT 
+      CASE WHEN investments.investor_name IS NULL THEN 'No Investors'
+            ELSE investments.investor_name END AS investor,
+      COUNT(DISTINCT companies.name) as number_of_companies
+  FROM tutorial.crunchbase_companies companies
+  LEFT JOIN tutorial.crunchbase_investments investments
+  ON companies.permalink = investments.company_permalink
+  GROUP BY 1
+  ORDER BY number_of_companies DESC
 
 
 
