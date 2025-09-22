@@ -67,7 +67,7 @@ If you’d like to run them yourself:
 5. Run them to see results (and optionally build charts in the Report Builder).
 
 Example:  
-The following simple query can be run in Mode directly against the `tutorial.billboard_top_100_year_end` dataset:
+The following simple query can be run in Mode directly against the [`The Crunchbase dataset`](https://mode.com/sql-tutorial/sql-outer-joins#the-crunchbase-dataset) dataset:
 
 ```sql
 SELECT 
