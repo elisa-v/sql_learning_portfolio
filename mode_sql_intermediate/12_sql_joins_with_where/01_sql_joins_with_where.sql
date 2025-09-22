@@ -3,5 +3,7 @@ SELECT companies.permalink AS companies_permalink,
        acquisitions.company_permalink AS acquisitions_permalink,
        acquisitions.acquired_at AS acquired_date
   FROM tutorial.crunchbase_companies companies
-  JOIN tutorial.crunchbase_acquisitions acquisitions
+  LEFT JOIN tutorial.crunchbase_acquisitions acquisitions
     ON companies.permalink = acquisitions.company_permalink
+   AND acquisitions.company_permalink != '/company/1000memories'
+ ORDER BY 1
