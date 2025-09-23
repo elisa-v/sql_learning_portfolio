@@ -35,11 +35,11 @@ sql_learning_portfolio/
 
 ---
 
-## 🚀 Learning Path
+## 🚀 Learning Path and Progression
 
 - **Mode Analytics SQL Tutorial**
-  - ✅ Basic SQL (SELECT, WHERE, ORDER BY, LIMIT, operators)
-  - 🔄 Intermediate SQL (Joins) → *in progress*
+  - ✅ Basic SQL (SELECT, WHERE, ORDER BY, LIMIT, operators) → *done*
+  - ✅ Intermediate SQL (Joins) → *done*
   - ⏳ Advanced SQL (Window functions, Subqueries) → *in progress*
 - **Kaggle SQL Micro-Course** → Applied SQL on real-world datasets → *in progress* 
 - **LeetCode SQL Problems** → Interview-style query practice (to be added).  
