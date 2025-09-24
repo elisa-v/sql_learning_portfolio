@@ -8,28 +8,30 @@ The goal is to master SQL fundamentals, practice on different platforms, and pre
 ## 📂 Repository Structure
 ```bash
 sql_learning_portfolio/
-├─ mode_sql_basic/                 # Basic SQL queries (Mode Analytics tutorial)
+├─ mode_sql_basic/             # Basic SQL queries (Mode Analytics tutorial)
 │  ├─ 01_sql_select/
-│  ├─ 01_sql_select.sql
-│  ├─ 02_sql_select.sql
-│  ├─ 03_sql_select.sql
-│  ├─ 04_sql_select.sql
 │  ├─ 02_sql_limit/
 │  ├─ 03_sql_where/
-│  ├─ 04_sql_comparison_operators/
-│  ├─ 05_sql_logical_operators/
-│  ├─ 06_sql_like/
-│  ├─ 07_sql_in/
-│  ├─ 08_sql_between/
-│  ├─ 09_sql_is_null/
-│  ├─ 10_sql_and/
-│  ├─ 11_sql_or/
-│  ├─ 12_sql_not/
+│  ├─ ...
 │  └─ 13_sql_order_by/
-├─ mode_sql_intermediate/          # Aggregate functions, group by, joins
-├─ mode_sql_advanced/              # Subqueries, data type, window functions
-├─ sqlbolt/                        # Solutions to SQLBolt lessons
-├─ kaggle_sql/                     # SQL notebooks on real datasets
+│
+├─ mode_sql_intermediate/      # Aggregate functions, group by, joins
+│  ├─ 01_sql_count/
+│  ├─ 02_sql_sum/
+│  ├─ 03_sql_minmax/
+│  ├─ ...
+│  └─ 16_sql_self_joins/
+│
+├─ mode_sql_advanced/          # Subqueries, data types, window functions
+│
+├─ kaggle-sql/  # Kaggle SQL notebooks and certificate
+│  ├─ intro_to_SQL_certificate.png
+│  └─ notebooks/
+│     ├─ lesson01_intro_to_sql.ipynb
+│     ├─ lesson02_select_from_where.ipynb
+│     ├─ ...
+│     └─ lesson06_exercise_joining_data.ipynb
+│
 └─ README.md
 ```
 
