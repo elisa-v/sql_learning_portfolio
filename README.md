@@ -41,7 +41,7 @@ sql_learning_portfolio/
   - ✅ Basic SQL (SELECT, WHERE, ORDER BY, LIMIT, operators) → *done*
   - ✅ Intermediate SQL (Joins) → *done*
   - ⏳ Advanced SQL (Window functions, Subqueries) → *in progress*
-- **Kaggle SQL Micro-Course** → Applied SQL on real-world datasets → *in progress* 
+- **Kaggle SQL Micro-Course** → Applied SQL on real-world datasets → *done*
 - **LeetCode SQL Problems** → Interview-style query practice (to be added).  
 
 ---
