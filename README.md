@@ -59,28 +59,27 @@ sql_learning_portfolio/
 
 ## ▶️ How to Use This Repo
 
-All SQL queries in this repo were written and tested using **Mode Analytics**.  
-If you’d like to run them yourself:
+The queries and notebooks in this repository were created and tested across different platforms:
 
-1. Create a free account on [Mode Analytics](https://mode.com/).
-2. Go to the **SQL Editor** (Mode Studio).
-3. Choose a sample dataset (e.g., `tutorial.billboard_top_100_year_end`).
-4. Copy-paste queries from this repo into the editor.
-5. Run them to see results (and optionally build charts in the Report Builder).
+- **mode_sql_basic** and **mode_sql_intermediate**  
+  All SQL queries in these folders were written and tested using **[Mode Analytics](https://mode.com/)**.  
+  To run them yourself:
+  1. Create a free account on [Mode Analytics](https://mode.com/).
+  2. Open the **SQL Editor** (Mode Studio).
+  4. Copy-paste queries from this repo into the editor.
+  5. Run them to view results and optionally build charts in the Report Builder.
 
-Example:  
-The following simple query can be run in Mode directly against the [`The Crunchbase dataset`](https://mode.com/sql-tutorial/sql-outer-joins#the-crunchbase-dataset) dataset:
 
-```sql
-SELECT 
-      CASE WHEN investments.investor_name IS NULL THEN 'No Investors'
-            ELSE investments.investor_name END AS investor,
-      COUNT(DISTINCT companies.name) as number_of_companies
-  FROM tutorial.crunchbase_companies companies
-  LEFT JOIN tutorial.crunchbase_investments investments
-  ON companies.permalink = investments.company_permalink
-  GROUP BY 1
-  ORDER BY number_of_companies DESC
+- **kaggle-sql**  
+  Jupyter notebooks in this folder were written and run as part of the Kaggle course:  
+  👉 [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql).  
+
+  These notebooks run directly on Kaggle using their built-in **BigQuery integration** and sample datasets.  
+  If you’d like to try them out:
+
+  1. Open the linked course on Kaggle.  
+  2. Copy the code into your own Kaggle Notebook, or run the provided `.ipynb` notebooks from this repo.  
+  3. Modify queries and re-run cells to explore variations.  
 
 
 
