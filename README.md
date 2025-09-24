@@ -5,6 +5,26 @@ The goal is to master SQL fundamentals, practice on different platforms, and pre
 
 ---
 
+## 🚀 Learning Path and Progression
+
+- **Mode Analytics SQL Tutorial**
+  - ✅ Basic SQL (SELECT, WHERE, ORDER BY, LIMIT, operators) → *done*
+  - ✅ Intermediate SQL (Joins) → *done*
+  - ⏳ Advanced SQL (Window functions, Subqueries) → *in progress*
+- **Kaggle SQL Micro-Course** → Applied SQL on real-world datasets → *done*
+- **LeetCode SQL Problems** → Interview-style query practice (to be added).  
+
+---
+
+## 🎯 Goals
+
+- Build a strong foundation in SQL (basic to advanced).
+- Practice queries across multiple platforms (Mode, SQLBolt, Kaggle, LeetCode).
+- Develop problem-solving skills for data science & AI 
+- Apply SQL in data pipelines, feature engineering, and MLOps projects.
+
+---
+
 ## 📂 Repository Structure
 ```bash
 sql_learning_portfolio/
@@ -34,26 +54,6 @@ sql_learning_portfolio/
 │
 └─ README.md
 ```
-
----
-
-## 🚀 Learning Path and Progression
-
-- **Mode Analytics SQL Tutorial**
-  - ✅ Basic SQL (SELECT, WHERE, ORDER BY, LIMIT, operators) → *done*
-  - ✅ Intermediate SQL (Joins) → *done*
-  - ⏳ Advanced SQL (Window functions, Subqueries) → *in progress*
-- **Kaggle SQL Micro-Course** → Applied SQL on real-world datasets → *done*
-- **LeetCode SQL Problems** → Interview-style query practice (to be added).  
-
----
-
-## 🎯 Goals
-
-- Build a strong foundation in SQL (basic to advanced).
-- Practice queries across multiple platforms (Mode, SQLBolt, Kaggle, LeetCode).
-- Develop problem-solving skills for data science & AI 
-- Apply SQL in data pipelines, feature engineering, and MLOps projects.
 
 ---
 
